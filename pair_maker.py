@@ -97,5 +97,6 @@ print_pairs(new_pairs)
 # open(pickle_filename, "wb").write(pickle.dumps(past_pairs))
 
 
-
+### Resources: 
+# https://docs.python.org/3/library/pickle.html
 
