@@ -2,7 +2,7 @@ import random, os.path, pickle
 from os import path
 from pair_maker import print_pairs, pickle_filename
 
-existing_pairs = (,) #(("alice", "bethany"), ("jane", "annie"))
+existing_pairs = (("carolina","amber"))
 
 if __name__ == '__main__':
     if path.exists(pickle_filename):

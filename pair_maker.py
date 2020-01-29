@@ -9,6 +9,29 @@ hufflepuff = ['kim', 'carolina', 'sarah fry', 'jessica', 'janine', 'jina']
 slytherin = ['amber', 'emily cheera', 'yichen', 'emily kuo', 'maggie', 'sarah tao']
 ravenclaw = ['elaine', 'lauren', 'vivi', 'omoefe', 'nichole', 'rowan']
 
+#HP-Houses
+# gryffindor = ['Euan Abercrombie', 'Katie Bell', 'Lavender Brown', 'Ritchie Coote',
+# 'Colin Creevey', 'Dennis Creevey', 'Seamus Finnigan', 'Hermione Granger', 'Angelina Johnson',
+# 'Lee Jordan', 'Andrew Kirke', 'Neville Longbottom', 'Natalie McDonald', 'Mary Macdonald',
+# 'Cormac McLaggen', 'Parvati Patil', 'Jimmy Peakes', 'Harry Potter', 'Demelza Robins', 
+# 'Jack Sloper', 'Alicia Spinnet', 'Dean Thomas', 'Romilda Vane', 'Fred Weasley', 
+# 'George Weasley', 'Ginny Weasley', 'Percy Weasley', 'Ron Weasley', 'Oliver Wood']
+
+# hufflepuff = ['Hannah Abbott', 'Susan Bones', 'Eleanor Branstone', 'Cadwallader'
+# 'Owen Cauldwell', 'Cedric Diggory', 'Justin Finch-Fletchley', 'Ernie Macmillan'
+# 'Laura Madley', 'Eloise Midgeon', 'Zacharias Smith', 'Pomona Sprout', 'Stebbins'
+# 'Summerby', 'Summers', 'Nymphadora Tonks', 'Kevin Whitby', 'Rose Zeller']
+
+# slytherin = ['Avery', 'Malcolm Baddock', 'Miles Bletchley', 'Bole', 'Millicent Bullstrode', 
+# 'Vincent Crabbe', 'Derrick', 'Marcus Flint', 'Gregory Goyle', 'Harper', 'Terence Higgs', 
+# 'Draco Malfoy', 'Montague', 'Theodore Nott', 'Pansy Parkinson', 'Graham Pritchard', 
+# 'Adrian Pucey', 'Vaisey', 'Urquhart', 'Warrington', 'Blaise Zabini']
+
+# ravenclaw = ['Stewart Ackerley', 'Marcus Belby', 'Terry Boot', 'Mandy Brocklehurst'
+# 'Cho Chang', 'Eddie Carmichael', 'Penelope Clearwater', 'Michael Corner', 'Roger Davies'
+# 'Marietta Edgecombe', 'Fawcett', 'Filius Flitwick', 'Anthony Goldstein', 'Luna Lovegood'
+# 'Padma Patil', 'Orla Quirke', 'Lisa Turpin']
+
 all_houses = gryffindor + hufflepuff + slytherin + ravenclaw
 
 def random_sort(students):
@@ -45,8 +68,8 @@ if __name__ == '__main__':
 
         # Create new pairs out of a selected 'house' set, and keep pairing until 
         # no duplicates are found. 
-        # Change houses as needed. Currently set to: House set 1
-        new_pairs = random_sort(gryffindor + hufflepuff) + random_sort(slytherin + ravenclaw)
+        # Change houses as needed. Currently set to: House set 3
+        new_pairs = random_sort(gryffindor + slytherin) + random_sort(ravenclaw + hufflepuff)
         collisions = False
         
         # Check if new_pair is in past_pair, if collisions are found, break this for loop.
